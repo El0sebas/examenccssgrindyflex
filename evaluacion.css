@@ -232,3 +232,39 @@ footer {
         gap: 8px;
     }
 }
+@media (max-width: 400px) {
+    body {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .header img {
+        width: 90px;
+        height: auto;
+    }
+    .nav li a {
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+    }
+    #imageni img,
+    #inscripciones img {
+        max-width: 100%;
+        height: auto;
+    }
+    #boton {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
